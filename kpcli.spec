@@ -14,8 +14,9 @@ Requires:	perl-Crypt-Rijndael
 Requires:	perl-Term-ReadKey
 Requires:	perl-Sort-Naturally
 Requires:	perl-File-KeePass
+# required one of Term::ReadLine::*
+Requires:	perl-Term-ReadLine-Gnu
 Requires:	perl-Term-ShellUI
-Suggests:	perl-Term-ReadLine-Gnu
 Suggests:	perl-Clipboard
 Suggests:	perl-Tiny-Capture
 Suggests:	perl-Data-Password
